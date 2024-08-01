@@ -1,26 +1,11 @@
 #!/usr/bin/env python3
+# 100-safe_first_element.py
+"Contains Augmented code with the correct duck-typed annotations."
+from typing import Any, Union, Sequence
 
 
-"""
-Module for safely accessing
-"""
-
-
-from typing import Any, Sequence, Union
-
-
-def safe_first_element(lst: Sequence) -> Union[Any, None]:
-    """
-    Returns the first element of a sequence safely,
-    or None if the sequence is empty.
-
-    Args:
-        lst (Sequence): The input sequence.
-
-    Returns:
-        Union[Any, None]: The first element of the sequence
-        if it's not empty, else None.
-    """
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
+    "Return the first element of a list or None if the list is empty."
     if lst:
         return lst[0]
     else:
