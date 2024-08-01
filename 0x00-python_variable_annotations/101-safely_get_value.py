@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Module for safely retrieving values from a dictionary.
+Module for safely retrieving values
 """
 
 from typing import Any, Mapping, TypeVar, Union
@@ -16,7 +16,7 @@ def safely_get_value(
     default: Union[T, None] = None
     ) -> Union[Any, T]:
     """
-    Safely retrieves a value from a dictionary.
+    Safely retrieves a value
 
     Args:
         dct (Mapping): The input dictionary.
