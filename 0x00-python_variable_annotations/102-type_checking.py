@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Module for zooming in on an array by repeating each element according to a
-factor.
+Module for zooming in on an array
 """
 
 from typing import Tuple, List, Any
@@ -10,7 +9,7 @@ from typing import Tuple, List, Any
 
 def zoom_array(lst: Tuple[Any, ...], factor: int = 2) -> Tuple[Any, ...]:
     """
-    Zooms in on an array by repeating each element according to a factor.
+    Zooms in on an array
 
     Args:
         lst (Tuple[Any, ...]): The input array.
