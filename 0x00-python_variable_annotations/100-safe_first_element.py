@@ -2,7 +2,7 @@
 
 
 """
-Module for safely accessing the first element of a sequence.
+Module for safely accessing
 """
 
 
