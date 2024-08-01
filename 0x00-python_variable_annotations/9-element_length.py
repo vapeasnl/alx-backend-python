@@ -4,6 +4,7 @@ Module for annotating function element_length
 """
 from typing import Iterable, Sequence, List, Tuple
 
+
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     Returns a list of tuples
